@@ -1,15 +1,20 @@
 package main
 
+import (
+	"github.com/eddiesun.me/controller"
+	"net/http"
+)
+
 type (
 	Route struct {
-		Url        string
-		Controller string
-		View       string
+		Name       string
+		Pattern    string
+		Controller func(http.ResponseWriter, *http.Request)
 	}
 )
 
 var (
 	Routes = []Route{
-		{"/", "index", "index.html"},
+		{"Index", "/", controller.Index},
 	}
 )
