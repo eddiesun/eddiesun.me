@@ -14,6 +14,7 @@ func initialize(w http.ResponseWriter, r *http.Request, viewFile string) (tmpl *
 		log.Fatalln("controller.initalize Error: ", err)
 	}
 
+	// TODO: this join function does not work if application was run elsewhere
 	templateFiles := []string{
 		filepath.Join(cwd, "./view/"+viewFile),
 		filepath.Join(cwd, "./view/header.tmpl"),
