@@ -23,7 +23,9 @@
 /* width and height */
 .height_100 {height: 100px;}
 .height_200 {height: 200px;}
+.height_300 {height: 300px;}
 .minheight_500 {min-height: 500px;}
+.minheight_800 {min-height: 800px;}
 
 /* position */
 .absolute {position: absolute;}
