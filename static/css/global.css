@@ -1,6 +1,16 @@
 @import url('http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700');
 @import url('http://fonts.googleapis.com/css?family=Open+Sans');
 
+@font-face {
+    font-family: 'PWIcons';
+    src: url('../font/PWIcons.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.es-logo {font-family: 'PWIcons'}
+.es-logo:before {content: "G";}
+
+
 /* margin */
 .margin_t_10 {margin-top: 10px;}
 .margin_t_12 {margin-top: 12px;}
@@ -42,6 +52,9 @@
 .text_40 {font-size: 40px;}
 .text_46 {font-size: 46px;}
 .text_50 {font-size: 50px;}
+.text_100 {font-size: 100px;}
+.text_150 {font-size: 150px;}
+.text_170 {font-size: 170px;}
 
 /* Font Family */
 .ubuntu {font-family: 'Ubuntu', Arial;}
