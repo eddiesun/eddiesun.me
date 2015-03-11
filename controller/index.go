@@ -8,7 +8,8 @@ import (
 func Index(w http.ResponseWriter, r *http.Request) {
 	// fmt.Fprintf(w, "Hi there, I love %s!", r.URL.Path[1:])
 	log.Println("IndexController - incoming request")
-	// initialize controller
+
+	// initialize controller to get a view template
 	tmpl, err := initialize(w, r, "index.html")
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)

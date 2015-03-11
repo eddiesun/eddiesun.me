@@ -1,12 +1,13 @@
 package main
 
 import (
+	_ "github.com/eddiesun.me/config"
 	"log"
 	"net/http"
+	_ "path/filepath"
 )
 
 func main() {
-
 	// register handler
 	regRoutes()
 	regStatic()

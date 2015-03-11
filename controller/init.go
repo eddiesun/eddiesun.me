@@ -1,29 +1,19 @@
 package controller
 
 import (
-	"html/template"
+	"github.com/eddiesun.me/config"
 	"log"
 	"net/http"
-	"os"
-	"path/filepath"
+	"text/template"
 )
 
-func initialize(w http.ResponseWriter, r *http.Request, viewFile string) (tmpl *template.Template, err error) {
-	cwd, err := os.Getwd()
+func initialize(w http.ResponseWriter, r *http.Request, viewName string) (tmpl *template.Template, err error) {
 	if err != nil {
 		log.Fatalln("controller.initalize Error: ", err)
 	}
 
-	// TODO: this join function does not work if application was run elsewhere
-	templateFiles := []string{
-		filepath.Join(cwd, "./view/"+viewFile),
-		filepath.Join(cwd, "./view/header.tmpl"),
-		filepath.Join(cwd, "./view/footer.tmpl"),
-	}
+	tmpl = template.New(viewName)
+	tmpl = template.Must(tmpl.ParseGlob(config.ABS_PATH_TO_THIS_FILE + "view/*.html"))
 
-	tmpl, err = template.ParseFiles(templateFiles...)
-	if err != nil {
-		return
-	}
 	return
 }
