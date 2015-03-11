@@ -1,3 +1,92 @@
+@import url('http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700');
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+
+/* margin */
+.margin_t_10 {margin-top: 10px;}
+.margin_t_12 {margin-top: 12px;}
+.margin_t_14 {margin-top: 14px;}
+.margin_t_16 {margin-top: 16px;}
+.margin_t_18 {margin-top: 18px;}
+.margin_t_20 {margin-top: 20px;}
+.margin_t_30 {margin-top: 30px;}
+.margin_t_40 {margin-top: 40px;}
+
+.margin_b_40 {margin-bottom: 40px;}
+
+.margin_r_10 {margin-right: 10px;}
+
+
+/* padding */
+.padding_t_100 {padding-top: 100px;}
+
+
+/* width and height */
+.height_100 {height: 100px;}
+.height_200 {height: 200px;}
+.minheight_500 {min-height: 500px;}
+
+/* position */
+.absolute {position: absolute;}
+.relative {position: relative;}
+
+/* display */
+.block {display: block;}
+.inline_block {display: inline-block;}
+.inline {display: inline;}
+
+/* Font size */
+.text_20 {font-size: 20px;}
+.text_30 {font-size: 30px;}
+.text_40 {font-size: 40px;}
+.text_46 {font-size: 46px;}
+.text_50 {font-size: 50px;}
+
+/* Font Family */
+.ubuntu {font-family: 'Ubuntu', Arial;}
+.opensans {font-family: 'Open Sans', Arial;}
+
+/* Font weight */
+.weight_700 {font-weight: 700;}
+
+/* Color */
+.white {color: white;}
+
+
+/* Text */
+.text_shadow_light {text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);}
+.text_shadow_medium {text-shadow: 0 2px 3px rgba(0, 0, 0, 0.7);}
+
+.caps {text-transform: uppercase;}
+
+.center {text-align: center;}
+
+/* cursor */
+.pointer {cursor: pointer;}
+
+
+/* */
+.boxcenter {margin-left: auto; margin-right: auto;}
+
+
+/* hover effects */
+.hover_blue {
+	transition: color 0.5s ease;
+}
+.hover_blue:hover {
+	color: #3873CD;
+}
+
+/* links */
+a.nostyle {
+	text-decoration: inherit;
+	color: inherit;
+}
+a.nostyle:hover {
+	text-decoration: inherit;
+	color: inherit;
+}
+
+/* */
 
 .curtain {
 	height: auto;
@@ -6,3 +95,4 @@
 	background-size: cover;
 	background-attachment: fixed;
 }
+
