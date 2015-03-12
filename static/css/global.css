@@ -63,6 +63,12 @@ body {
 .text_150 {font-size: 150px;}
 .text_170 {font-size: 170px;}
 
+@media (max-width: 767px) {
+	.text_36_s {
+		font-size: 36px;
+	}
+}
+
 /* Font Family */
 .ubuntu {font-family: 'Ubuntu', Arial;}
 .opensans {font-family: 'Open Sans', Arial;}
@@ -76,7 +82,7 @@ body {
 
 /* Text */
 .text_shadow_light {text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);}
-.text_shadow_medium {text-shadow: 0 2px 3px rgba(0, 0, 0, 0.7);}
+.text_shadow_medium {text-shadow: 0 3px 6px rgba(0, 0, 0, 0.7);}
 
 .caps {text-transform: uppercase;}
 
@@ -108,7 +114,15 @@ a.nostyle:hover {
 	color: inherit;
 }
 
-/* */
+
+/* background */
+.bg_dark_20 {
+	background-color: none;
+	background-color: rgba(0,0,0,0.2);
+}
+
+
+/* specials */
 
 .curtain {
 	height: auto;
