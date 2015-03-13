@@ -35,6 +35,9 @@ body {
 /* padding */
 .padding_t_100 {padding-top: 100px;}
 
+.padding_b_15 {padding-bottom: 15px;}
+.padding_b_30 {padding-bottom: 30px;}
+
 
 /* width and height */
 .height_100 {height: 100px;}
@@ -42,6 +45,10 @@ body {
 .height_300 {height: 300px;}
 .minheight_500 {min-height: 500px;}
 .minheight_800 {min-height: 800px;}
+
+@media (max-width:767px) {
+	.height_150_xs {height: 150px;}
+}
 
 /* position */
 .absolute {position: absolute;}

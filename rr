@@ -1,0 +1,2 @@
+## a simple script to compile and run the server
+clear && go install && $GOPATH/bin/eddiesun.me
