@@ -85,6 +85,9 @@ body {
 
 /* Color */
 .white {color: white;}
+.dodger_blue {color: #2096F3;}
+.deep_sky_blue {color: #03A9F4;}
+.fruit_salid {color: #4CAF50;}
 
 
 /* Text */
@@ -121,8 +124,18 @@ a.nostyle:hover {
 	color: inherit;
 }
 
+/* shadows */
+.inset_shadow {
+	-webkit-box-shadow: inset 0px 0px 20px 1px rgb(136,136,136);
+	-moz-box-shadow: inset 0px 0px 20px 1px rgb(136,136,136);
+	box-shadow: inset 0px 0px 20px 1px rgb(136,136,136);
+}
 
 /* background */
+.bg_wild_sand {background-color: #F5F5F5;}
+.bg_dodger_blue {background-color: #2096F3;}
+.bg_deep_sky_blue {background-color: #03A9F4;}
+.bg_fruit_salid {background-color: #4CAF50;}
 .bg_dark_20 {
 	background-color: none;
 	background-color: rgba(0,0,0,0.2);
