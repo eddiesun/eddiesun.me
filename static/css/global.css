@@ -27,6 +27,7 @@ body {
 .margin_t_30 {margin-top: 30px;}
 .margin_t_40 {margin-top: 40px;}
 
+.margin_b_30 {margin-bottom: 30px;}
 .margin_b_40 {margin-bottom: 40px;}
 
 .margin_r_10 {margin-right: 10px;}
@@ -137,10 +138,13 @@ a.nostyle:hover {
 .bg_deep_sky_blue {background-color: #03A9F4;}
 .bg_fruit_salid {background-color: #4CAF50;}
 .bg_dark_20 {
-	background-color: none;
+	background-color: transparent;
 	background-color: rgba(0,0,0,0.2);
 }
-
+.bg_dark_50 {
+	background-color: transparent;
+	background-color: rgba(0, 0, 0, 0.5);
+}
 
 /* specials */
 
@@ -151,4 +155,21 @@ a.nostyle:hover {
 	background-size: cover;
 	background-attachment: fixed;
 }
+
+/* placeholder color */
+.placeholder_white::-webkit-input-placeholder { /* WebKit browsers */
+    color: #FFFFFF;
+}
+.placeholder_white:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #FFFFFF;
+   opacity: 1;
+}
+.placeholder_white::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #FFFFFF;
+   opacity: 1;
+}
+.placeholder_white:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color: #FFFFFF;
+}
+
 

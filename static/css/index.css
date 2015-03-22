@@ -24,3 +24,15 @@
 	}
 }
 
+.section_5 {
+	background-image: url('/static/img/FullSizeRender-7-1200.jpg');
+	background-image: url('/static/img/FullSizeRender-7-1200.jpg'), url('/static/img/FullSizeRender-7-600.jpg');
+}
+/* For super large monitor, add a high def image */
+@media (min-width: 1170px) {
+	.section_5 {
+		background-image: url('/static/img/FullSizeRender-7-2400.jpg');
+		background-image: url('/static/img/FullSizeRender-7-2400.jpg'), url('/static/img/FullSizeRender-7-1200.jpg'), url('/static/img/FullSizeRender-7-600.jpg');
+	}
+}
+
