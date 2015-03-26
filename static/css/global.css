@@ -146,16 +146,6 @@ a.nostyle:hover {
 	background-color: rgba(0, 0, 0, 0.5);
 }
 
-/* specials */
-
-.curtain {
-	height: auto;
-	width: 100%;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-}
-
 /* placeholder color */
 .placeholder_white::-webkit-input-placeholder { /* WebKit browsers */
     color: #FFFFFF;
@@ -172,4 +162,15 @@ a.nostyle:hover {
    color: #FFFFFF;
 }
 
+
+/* specials */
+
+.curtain {
+	height: auto;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
 

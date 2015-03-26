@@ -16,5 +16,6 @@ type (
 var (
 	Routes = []Route{
 		{"Index", "/", controller.Index},
+		{"ContactForm", "/contactForm", controller.ContactForm},
 	}
 )
