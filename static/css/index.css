@@ -4,12 +4,14 @@
 	background-image: url('/static/img/FullSizeRender-5-1200.jpg'), url('/static/img/FullSizeRender-5-600.jpg');
 }
 /* For super large monitor, add a high def image */
+/*
 @media (min-width: 1170px) {
 	.section_1 {
 		background-image: url('/static/img/FullSizeRender-5-2400.jpg');
 		background-image: url('/static/img/FullSizeRender-5-2400.jpg'), url('/static/img/FullSizeRender-5-1200.jpg'), url('/static/img/FullSizeRender-5-600.jpg');
 	}
 }
+*/
 
 
 .section_3 {
@@ -17,22 +19,26 @@
 	background-image: url('/static/img/IMG_2427_1200.jpg'), url('/static/img/IMG_2427_600.jpg');
 }
 /* For super large monitor, add a high def image */
+/*
 @media (min-width: 1170px) {
 	.section_3 {
 		background-image: url('/static/img/IMG_2427_2400.jpg');
 		background-image: url('/static/img/IMG_2427_2400.jpg'), url('/static/img/IMG_2427_1200.jpg'), url('/static/img/IMG_2427_600.jpg');
 	}
 }
+*/
 
 .section_5 {
 	background-image: url('/static/img/FullSizeRender-7-1200.jpg');
 	background-image: url('/static/img/FullSizeRender-7-1200.jpg'), url('/static/img/FullSizeRender-7-600.jpg');
 }
 /* For super large monitor, add a high def image */
+/*
 @media (min-width: 1170px) {
 	.section_5 {
 		background-image: url('/static/img/FullSizeRender-7-2400.jpg');
 		background-image: url('/static/img/FullSizeRender-7-2400.jpg'), url('/static/img/FullSizeRender-7-1200.jpg'), url('/static/img/FullSizeRender-7-600.jpg');
 	}
 }
+*/
 

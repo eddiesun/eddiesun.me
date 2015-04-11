@@ -4,11 +4,11 @@
 }
 .navbar-default .navbar-brand {
   color: #FFFFFF;
-  padding-top: 35px;
+  /*padding-top: 35px;*/
 }
 @media (max-width: 767px) {
   .navbar-default .navbar-brand {
-    padding-top: 15px;
+    /*padding-top: 15px;*/
   }
 }
 
