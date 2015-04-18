@@ -8,7 +8,7 @@
 }
 @media (max-width: 767px) {
   .navbar-default .navbar-brand {
-    /*padding-top: 15px;*/
+    padding-top: 5px;
   }
 }
 
