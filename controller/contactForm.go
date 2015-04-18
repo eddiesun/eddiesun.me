@@ -20,7 +20,7 @@ func ContactForm(w http.ResponseWriter, r *http.Request) {
 	var message string = r.PostFormValue("message")
 
 	// send an email to my email address.
-	sg := sendgrid.NewSendGridClient("eddiexsun", "SandyWind0")
+	sg := sendgrid.NewSendGridClient(config.SENDGRID_USERNAME, config.SENDGRID_PASSWORD)
 	mail := sendgrid.NewMail()
 	mail.AddTo(config.MY_EMAIL_ADDRESS)
 	mail.AddToName(config.MY_NAME)
