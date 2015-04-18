@@ -6,4 +6,5 @@ const (
 	MY_NAME               = "Eddie Sun"
 	SENDGRID_USERNAME     = ""
 	SENDGRID_PASSWORD     = ""
+	GOOGLE_ANALYTICS_ID   = ""
 )
